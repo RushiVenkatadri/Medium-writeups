@@ -1,0 +1,132 @@
+# Today I Finally Understood Why Burp Repeater Is So Useful
+
+*One small tool completely changed the way I test web applications.*
+
+When I first started learning web application security, Burp Suite looked overwhelming.
+
+There were so many tabs:
+- Proxy
+- Repeater
+- Intruder
+- Decoder
+- Comparer
+
+Like many beginners, I spent most of my time inside Proxy, simply intercepting requests and forwarding them. I knew Burp Repeater existed, but I didn't really understand why experienced bug bounty hunters relied on it so much.
+
+Today, that changed.
+
+## My Initial Mistake
+
+Initially, every time I wanted to test something, I refreshed the browser.
+
+If I wanted to change a parameter, I would:
+- Go back to the webpage
+- Click the button again
+- Capture another request
+- Modify it
+- Repeat everything from scratch
+
+It worked, but it was slow and frustrating.
+
+I was testing the application through the browser instead of testing the HTTP request itself.
+
+## The Moment It Clicked
+
+While solving labs and experimenting with different requests, I started sending interesting requests to Burp Repeater.
+
+That was the moment I realized something important.
+
+The browser wasn't actually the thing I wanted to test.
+
+The HTTP request was.
+
+Once a request is inside Repeater, I can send it again and again without touching the browser.
+
+That completely changed my workflow.
+
+## Why Burp Repeater Is Powerful
+
+Instead of repeating the entire process inside the website, I can simply edit one part of the request.
+
+For example:
+
+- Change a page ID.
+- Modify a parameter.
+- Remove a header.
+- Add a cookie.
+- Test different HTTP methods.
+- Observe how the server responds.
+
+Every change becomes fast and deliberate.
+
+## I Started Thinking Differently
+
+Before using Repeater properly, my mindset was:
+
+> "How do I use the website?"
+
+Now my mindset is:
+
+> "How does the server respond if I change this request?"
+
+That small shift completely changed how I approach security testing.
+
+## My Favorite Part
+
+The best thing about Burp Repeater is that nothing is rushed.
+
+I can:
+
+- Read every header.
+- Compare responses.
+- Modify one value at a time.
+- Observe differences carefully.
+
+Instead of randomly trying payloads, I started understanding *why* something behaves differently.
+
+## A Lesson I Learned
+
+One of the biggest lessons from today's practice is this:
+
+Web application security is less about finding magical payloads and more about understanding communication between the client and the server.
+
+Burp Repeater makes that communication visible.
+
+Once you begin reading requests and responses carefully, vulnerabilities become much easier to understand.
+
+## Advice to Other Beginners
+
+If you're just starting your web security journey like I am, don't ignore Burp Repeater.
+
+Spend time experimenting with it.
+
+Take one intercepted request and ask yourself:
+
+- What happens if I change this parameter?
+- What if I remove this header?
+- What if I modify this cookie?
+- Why did the response change?
+
+Those simple questions teach far more than memorizing payloads.
+
+## Final Thoughts
+
+Today wasn't about discovering a critical vulnerability.
+
+It was about understanding a tool that experienced security researchers use every day.
+
+Sometimes the biggest progress doesn't come from finding a bug.
+
+It comes from finally understanding **why a tool exists in the first place.**
+
+That lesson alone has already improved the way I approach web application security.
+
+---
+
+Thank you for reading.
+
+I'm documenting my journey as I learn Web Security, Bug Bounty, PortSwigger, Hacker101, Burp Suite, and practical application security.
+
+If you're also beginning your cybersecurity journey, I hope my experiences help you learn a little faster than I did.
+
+Happy hacking! 🚀
