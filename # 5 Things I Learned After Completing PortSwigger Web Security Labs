@@ -1,0 +1,194 @@
+# 5 Things I Learned After Completing PortSwigger Web Security Labs
+### Lessons from a Beginner's Bug Bounty Journey
+
+**By Rushi Venkatadri**
+
+---
+
+## Introduction
+
+When I first started learning web security, I believed finding vulnerabilities was all about using powerful tools and memorizing payloads.
+
+After spending time solving PortSwigger Web Security Academy labs, I realized I was completely wrong.
+
+The biggest improvement wasn't learning more payloads—it was learning **how to think**.
+
+Each lab challenged me to slow down, observe carefully, and understand how web applications actually work.
+
+These are the five lessons that changed the way I approach bug bounty hunting.
+
+---
+
+# 1. Every Parameter Deserves Attention
+
+One of the first habits I developed was to stop assuming that parameters were harmless.
+
+Whether it was:
+
+- URL parameters
+- POST body values
+- Cookies
+- Headers
+- JSON requests
+
+every single parameter became something worth investigating.
+
+A single modified value can completely change how an application behaves.
+
+Many vulnerabilities begin with a simple question:
+
+> "What happens if I change this?"
+
+That curiosity became one of the most valuable skills I gained.
+
+---
+
+# 2. Burp Suite Is More Than Just a Proxy
+
+When I first opened Burp Suite, I mainly used it to intercept requests.
+
+Over time, I discovered how useful different tools inside Burp really are.
+
+Some of the features I now rely on include:
+
+- Proxy History
+- Repeater
+- Comparer
+- HTTP Message Analysis
+
+Repeater, in particular, changed how I test applications.
+
+Instead of refreshing the browser repeatedly, I could modify requests quickly and observe exactly how the server responded.
+
+Learning Burp wasn't about clicking buttons.
+
+It was about understanding HTTP.
+
+---
+
+# 3. Read the Responses, Not Just the Status Code
+
+One mistake I used to make was focusing only on HTTP status codes such as:
+
+- 200 OK
+- 403 Forbidden
+- 404 Not Found
+
+But the response body often tells a much bigger story.
+
+Sometimes applications reveal:
+
+- Hidden functionality
+- Internal messages
+- Debugging information
+- User data
+- Implementation details
+
+The more carefully I read server responses, the more I realized that important clues are often hiding in plain sight.
+
+---
+
+# 4. Enumeration Wins More Than Complex Payloads
+
+Before starting bug bounty, I thought success depended on clever payloads.
+
+PortSwigger taught me something different.
+
+Simple enumeration often reveals more than complicated attacks.
+
+Examples include:
+
+- Changing IDs
+- Testing different user roles
+- Exploring hidden endpoints
+- Checking API behavior
+- Modifying parameters
+- Observing access control decisions
+
+Most of my progress came from asking simple questions repeatedly rather than trying advanced exploits immediately.
+
+---
+
+# 5. The Biggest Skill Is Developing an Attacker's Mindset
+
+This was probably the most important lesson.
+
+Web security isn't about memorizing hundreds of vulnerabilities.
+
+It's about asking questions that developers may never have considered.
+
+Questions like:
+
+- What if this value changes?
+- What if I remove this parameter?
+- What if another user accesses this object?
+- What happens if authentication fails?
+- Does the server actually verify this?
+
+That mindset transformed how I look at web applications.
+
+Instead of seeing pages, I now see requests, responses, trust boundaries, and opportunities to test assumptions.
+
+---
+
+# My Biggest Takeaway
+
+PortSwigger didn't just teach me vulnerabilities.
+
+It taught me how to investigate.
+
+That difference is huge.
+
+Learning payloads is useful.
+
+Learning how to think is what makes someone grow as a security researcher.
+
+---
+
+# What's Next?
+
+I'm continuing my journey by exploring:
+
+- Hacker101 CTF
+- Bug bounty methodology
+- Web application security testing
+- Reconnaissance techniques
+- Practical bug hunting
+
+I plan to document everything I learn along the way so that other beginners can learn with me.
+
+---
+
+# Final Thoughts
+
+If you're just starting your cybersecurity journey, don't worry about completing hundreds of labs as quickly as possible.
+
+Instead, focus on understanding **why** each vulnerability exists.
+
+Take notes.
+
+Experiment.
+
+Repeat the lab.
+
+Modify requests.
+
+Think like an attacker.
+
+That mindset will stay with you far longer than any single payload or technique.
+
+Cybersecurity is a journey of continuous learning, and every lab solved is another step toward becoming a better security researcher.
+
+Thank you for reading!
+
+If you found this article helpful, consider following me for more content on Bug Bounty, Web Security, Hacker101, PortSwigger Web Security Academy, Reconnaissance, and practical cybersecurity learning.
+
+Happy Hunting! 🚀
+
+---
+
+## About the Author
+
+**Rushi Venkatadri** is a B.Tech CSE student passionate about Web Security, Bug Bounty Hunting, and Ethical Hacking.
+
+He actively documents his cybersecurity learning journey through practical labs, CTF challenges, and educational content. Alongside his professional profiles, he is building **GhostPacket Labs**, a YouTube project focused on beginner-friendly web security walkthroughs, bug bounty methodology, and hands-on cybersecurity education.
