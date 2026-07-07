@@ -1,0 +1,92 @@
+# I Submitted Multiple Bug Bounty Reports Before Finding My First Valid Bug. Here's Why I'm Glad I Did.
+
+Link:https://medium.com/@rushivenkatadri/i-submitted-multiple-bug-bounty-reports-before-finding-my-first-valid-bug-7c3881003da0
+
+When people think about bug bounty, they usually think about rewards.
+
+$500 bounties.
+Critical vulnerabilities.
+Hall of Fame.
+
+But nobody talks about the reports that don't get accepted.
+
+Over the past few weeks, I've submitted multiple reports while learning web security. Some were marked Informative. Some are still under review. None of them have earned me a payout yet.
+
+And honestly, I'm okay with that.
+
+## The First Report Felt Different
+
+Finding something interesting was exciting.
+
+Submitting the report was harder.
+
+I had to explain what I found, how to reproduce it, why it happened, and whether it actually created a security risk.
+
+That's when I realized bug bounty isn't just about finding bugs.
+
+It's also about explaining them clearly.
+
+## "Informative" Isn't the End
+
+When one of my reports was marked Informative, I was disappointed.
+
+After reading the response carefully, I understood what I had missed.
+
+The issue existed, but the impact wasn't strong enough for that program.
+
+That taught me something important.
+
+Finding unusual behavior isn't enough.
+
+You also need to understand how much it really affects security.
+
+## My Biggest Change
+
+When I started, I kept asking:
+
+*"Which payload should I try?"*
+
+Now I ask:
+
+*"What is this application trusting that it shouldn't?"*
+
+That single question changed the way I test applications.
+
+Instead of only looking at endpoints, I started looking at workflows, permissions, and business logic.
+
+## Every Report Is Practice
+
+Even reports that don't become valid are valuable.
+
+Each one improves something.
+
+- Better testing
+- Better report writing
+- Better understanding of application logic
+- Better impact analysis
+
+I may not have my first bounty yet, but every report makes me a better hunter.
+
+## What's Next?
+
+I'm still learning.
+
+I'm still solving PortSwigger labs.
+
+I'm still documenting my journey through GitHub, Medium, LinkedIn, and X.
+
+My goal isn't just to find one valid bug.
+
+It's to become the kind of security researcher who understands applications deeply enough to find them consistently.
+
+I'm not there yet.
+
+But every report gets me one step closer.
+
+---
+
+Thanks for reading!
+
+If you're also starting your bug bounty journey, I'd love to hear about your experience.
+
+I share weekly articles about bug bounty, web security, PortSwigger labs, and lessons I'm learning along the way. Feel free to follow my journey here on Medium.
