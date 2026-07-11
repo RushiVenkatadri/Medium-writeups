@@ -1,0 +1,129 @@
+# I Solved 50+ PortSwigger Labs. Here's What They Didn't Teach Me.
+
+When I first started learning web security, I thought solving PortSwigger labs would automatically make me good at bug bounty hunting.
+
+After all, I was learning IDORs, authentication flaws, access control issues, CSRF, SQL injection, and much more.
+
+So I completed lab after lab.
+
+Then I opened my first real bug bounty target.
+
+And suddenly...
+
+I felt like a beginner again.
+
+## Labs Give You Confidence
+
+Real Applications Test It.
+
+PortSwigger is one of the best learning platforms I've ever used.
+
+It teaches you how vulnerabilities work.
+
+It teaches you how to exploit them safely.
+
+It teaches you the theory behind modern web security.
+
+But real applications don't come with a label saying:
+
+*"This page contains an IDOR."*
+
+That's where things become different.
+
+## The Biggest Difference
+
+In PortSwigger, you already know there's a vulnerability.
+
+Your job is simply to find the right path.
+
+In bug bounty...
+
+You don't even know if a vulnerability exists.
+
+That completely changes your mindset.
+
+Instead of exploiting known bugs, you're trying to understand an application built by hundreds of developers over many years.
+
+Sometimes you spend three hours testing a feature...
+
+Only to realize it's implemented correctly.
+
+That isn't failure.
+
+That's part of the process.
+
+## I Had to Stop Chasing Endpoints
+
+Earlier, I used to jump from page to page looking for something interesting.
+
+Now I spend more time understanding the application itself.
+
+Questions like these help me more than any scanner:
+
+- What is this feature supposed to do?
+- Who owns this data?
+- Should another user ever see this?
+- Where does the server trust user input?
+- What assumptions did the developer make?
+
+Those questions have improved my testing far more than learning another Burp extension.
+
+## One Lesson I'll Never Forget
+
+A lab teaches you one vulnerability.
+
+A real application teaches you how systems are built.
+
+That's why even when I don't find a valid bug, I still learn something.
+
+Maybe I understand GraphQL a little better.
+
+Maybe I learn how a wishlist feature works.
+
+Maybe I discover a new API pattern.
+
+Every application leaves me with something useful.
+
+## My Advice for Beginners
+
+Don't rush through PortSwigger just to complete all the labs.
+
+After every lab, ask yourself:
+
+"Where would this vulnerability appear in a real application?"
+
+That one question completely changes how you learn.
+
+Because your goal isn't to collect lab badges.
+
+Your goal is to recognize similar patterns when no one tells you where to look.
+
+## What's Next for Me
+
+I'm still learning.
+
+Still testing.
+
+Still submitting reports.
+
+Some will be Informative.
+
+Some may be duplicates.
+
+Hopefully, some will become valid findings.
+
+But one thing has changed.
+
+I'm no longer treating PortSwigger as the finish line.
+
+I'm treating it as the training ground.
+
+And honestly...
+
+That's when learning became much more enjoyable.
+
+---
+
+If you're also learning bug bounty from scratch, you're not alone.
+
+I'll continue sharing what works, what doesn't, and everything I learn along the way.
